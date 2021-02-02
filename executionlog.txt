@@ -1,0 +1,17 @@
+$ python DAFSA.py
+Enter string 1:department
+Enter string 2:neuroscience
+Enter string 3:blizzard
+['apartment', 'compartment', 'department'] ['overreliance', 'telescience', 'neuroscience'] ['blizard', 'gizzard', 'grizzard', 'izard', 'izzard', 'lizard', 'quizard', 'wizard', 'blizzard']     
+
+
+---------DAFSA for String 1-----------
+seq_list---> [{'a': 'partment', 'com': 'partment'}, {'a': 'partment', 'de': 'partment'}, {'com': 'partment', 'de': 'partment'}]
+
+
+---------DAFSA for String 2-----------
+seq_list---> [{'overrelia': 'nce', 'telescie': 'nce'}, {'overrelia': 'nce', 'neuroscie': 'nce'}, {'tele': 'science', 'neuro': 'science'}]
+
+
+---------DAFSA for String 3---------------
+seq_list---> [{'bli': 'zard', 'giz': 'zard'}, {'bli': 'zard', 'griz': 'zard'}, {'bli': 'zard', 'iz': 'zard'}, {'bl': 'izard', 'qu': 'izard'}, {'bl': 'izard', 'w': 'izard'}, {'bli': 'zard', 'bliz': 'zard'}, {'g': 'izzard', 'gr': 'izzard'}, {'giz': 'zard', 'i': 'zard'}, {'giz': 'zard', 'li': 'zard'}, {'giz': 'zard', 'qui': 'zard'}, {'giz': 'zard', 'wi': 'zard'}, {'g': 'izzard', 'bl': 'izzard'}, {'griz': 'zard', 'i': 'zard'}, {'griz': 'zard', 'li': 'zard'}, {'griz': 'zard', 'qui': 'zard'}, {'griz': 'zard', 'wi': 'zard'}, {'gr': 'izzard', 'bl': 'izzard'}, {'i': 'zard', 'iz': 'zard'}, {'i': 'zard', 'bliz': 'zard'}, {'iz': 'zard', 'li': 'zard'}, {'iz': 'zard', 'qui': 'zard'}, {'iz': 'zard', 'wi': 'zard'}, {'l': 'izard', 'qu': 'izard'}, {'l': 'izard', 'w': 'izard'}, {'li': 'zard', 'bliz': 'zard'}, {'qu': 'izard', 'w': 'izard'}, {'qui': 'zard', 'bliz': 'zard'}, {'wi': 'zard', 'bliz': 'zard'}]
