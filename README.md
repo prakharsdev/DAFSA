@@ -1,4 +1,4 @@
-# Deterministic Acyclic Finite State Automaton(DAFSA)
+# Deterministic Acyclic Finite State Automaton(DAFSA) Rhymer
 
 In my implementation, I have used the concept of DAFSA to find out the characters that are responsible for rhyming from the list of rhyming words.
 For this, I have used "pronouncing" inbuilt python library that generates the list of rhyming words from the user input word.
